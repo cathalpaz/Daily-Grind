@@ -6,20 +6,9 @@
   "permissions": ["alarms", "activeTab", "storage, activeTab"],
   "action": {
     "default_popup": "index.html",
-    "default_icon": {
-      "16": "images/icon-16.png",
-      "48": "images/icon-48.png",
-      "128": "images/icon-128.png"
-    }
+    "default_title": "Open"
   },
-  "icons": {
-    "16": "images/icon-16.png",
-    "48": "images/icon-48.png",
-    "128": "images/icon-128.png"
-  },
-  "background": {
-    "service_worker": "background.js"
-  },
+
   "host_permissions": [
     "https://leetcode.com/*"
   ]
