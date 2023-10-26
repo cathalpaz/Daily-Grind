@@ -3,7 +3,7 @@
   "name": "LeetCode Reminder",
   "version": "1.0",
   "description": "A Chrome extension to remind you to solve daily LeetCode problems.",
-  "permissions": ["alarms", "activeTab", "storage, activeTab"],
+  "permissions": ["alarms", "activeTab", "storage", "tabs"],
   "action": {
     "default_popup": "index.html",
     "default_title": "Open"
